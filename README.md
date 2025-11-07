@@ -12,16 +12,23 @@ Dabei orientiere ich mich an [SWUDB](https://swudb.com/). Der grosse Unterschied
 
 ## Epics
 1. Als Spieler möchte ich, dass die Bilder der Karten angezeigt werden.
-2. Als Spieler möchte ich, dass man eine Karte vergrössern kann.
-3. Als Spieler möchte ich, dass man angeben kann, welche Karten man besitzt.
-4. Als Spieler möchte ich, dass man sehen kann, welche Karten man wie oft besitzt.
-5. Als Spieler möchte ich, dass man nach bestimmten Karten suchen kann.
-6. Als Spieler möchte ich, dass man die Karten filtern kann.
-7. Als Spieler möchte ich, dass man zwischen einer Kachel- und Listenansicht wechseln kann.
+2. Als Spieler möchte ich angeben können, welche Karten man besitzt.
+3. Als Spieler möchte ich sehen können, welche Karten man wie oft besitzt.
+4. Als Spieler möchte ich nach bestimmten Karten suchen können.
+5. Als Spieler möchte ich die Karten filtern können.
+6. Als Spieler möchte ich zwischen einer Kachel- und Listenansicht wechseln können.
 
-## 07.11.2025 (Epic-Nr: 1)
-- [ ]  Als Sammler möchte ich, dass die Daten meiner Sammlung in einer MongoDB gesichert sind, damit meine Daten gespeichert bleiben.
-- [ ]  Als Spieler möchte ich eine Webseite haben in der ich mich Zurecht finde, damit ich die Karten anschauen kann.
-- [ ]  Als Deckbauer möchte ich, dass ich weiss, welche Karten existieren, damit ich einen Überblick über die Karten habe.
+**Falls Zeit:**
 
-Heute habe ich...
+7. Als Spieler möchte ich, dass man eine Karte vergrössern kann.
+8. Als Spieler möchte ich eine CSV-Datei hochladen können, um neue Karten zurSammlunghinzuzufügen.
+
+## 07.11.2025
+*Projektidee finden und ausprobieren*
+
+✍️ Heute habe ich meine Projektidee sowie die Epics geschrieben. Anschliessend habe ich begonnen eine MongoDB zu erstellen. Währenddessen bin ich auf die Idee gekommen nach einer SWU API zu suchen und habe eine gefunden. Nachdem ich die Idee mit meiner Lehrperson besprochen habe, habe ich die API mit einfachem JS ausprobiert und habe es geschafft alle Bilder eines Sets anzeigen zu können. (62 Wörter)
+
+## 14.11.2025 (Epic-Nr: 1)
+*siehe issues*
+
+✍️ Heute habe ich...
