@@ -3,7 +3,9 @@
 07.11.2025 – 19.12.2025
 
 ## Technologien
-In dieser Lernperiode möchte ich mich mit React beschäftigen und mein Wissen in MongoDB vertiefen.
+In dieser Lernperiode möchte ich mich mit React beschäftigen.
+
+**Link zur API**: [www.swu-db.com/api](https://www.swu-db.com/api)
 
 ## Projektbeschreibung
 Ich möchte eine Webseite erstellen, auf welcher man einige Star Wars Karten sieht. Man kann jede Karte vergrössern und hinterlegen, welche Karte man wie oft besitzt. Ausserdem soll es eine Such- und Filterfunktion geben.
