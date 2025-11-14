@@ -17,7 +17,7 @@ Dabei orientiere ich mich an [SWUDB](https://swudb.com/). Der grosse Unterschied
 ## Epics
 
 1. Als Spieler möchte ich, dass die Bilder der Karten angezeigt werden.
-2. Als Spieler möchte ich angeben können, welche Karten man besitzt.
+2. Als Spieler möchte ich angeben können, welche Karten man wie oft besitzt.
 4. Als Spieler möchte ich nach bestimmten Karten suchen können.
 5. Als Spieler möchte ich die Karten filtern können.
 6. Als Spieler möchte ich zwischen einer Kachel- und Listenansicht wechseln können.
