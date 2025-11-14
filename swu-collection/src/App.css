@@ -1,0 +1,19 @@
+.setLoader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  padding: 40px 0px 40px 0px;
+}
+.setLoader img {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  filter: brightness(0.7);
+}
+.setLoader img:hover {
+  border: 1px solid #ffffff;
+  filter: brightness(1);
+}
