@@ -18,15 +18,15 @@ Dabei orientiere ich mich an [SWUDB](https://swudb.com/). Der grosse Unterschied
 
 1. Als Spieler möchte ich, dass die Bilder der Karten angezeigt werden.
 2. Als Spieler möchte ich angeben können, welche Karten man besitzt.
-3. Als Spieler möchte ich sehen können, welche Karten man wie oft besitzt.
 4. Als Spieler möchte ich nach bestimmten Karten suchen können.
 5. Als Spieler möchte ich die Karten filtern können.
 6. Als Spieler möchte ich zwischen einer Kachel- und Listenansicht wechseln können.
+8. Als Spieler möchte ich eine CSV-Datei hochladen können, um neue Karten zur Sammlung hinzuzufügen.
 
 **Falls Zeit:**
 
 7. Als Spieler möchte ich, dass man eine Karte vergrössern kann.
-8. Als Spieler möchte ich eine CSV-Datei hochladen können, um neue Karten zurSammlunghinzuzufügen.
+8. Als Spieler möchte ich eine Dateilansicht jeder Karte sehen, damit ich mehr Infos erhalte.
 
 ## 07.11.2025
 
