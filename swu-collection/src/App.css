@@ -1,15 +1,22 @@
+h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  margin: 50px;
+}
 .setLoader {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
 
-  padding: 40px 0px 40px 0px;
+  padding: 0px 0px 40px 0px;
 }
 .setLoader img {
+  width: 250px;
   border: 1px solid #000000;
-  border-radius: 5px;
+  border-radius: 9px;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
   filter: brightness(0.7);
 }

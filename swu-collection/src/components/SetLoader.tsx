@@ -25,7 +25,7 @@ function SetLoader(props: SetLoaderProps) {
   return (
     <div className="setLoader">
       {sortedCards.map((card: any, index: number) => (
-        <img key={index} src={card.FrontArt} alt="card" width={100} />
+        <img key={index} src={card.FrontArt} alt="card" />
       ))}
     </div>
   );
