@@ -18,10 +18,10 @@ Dabei orientiere ich mich an [SWUDB](https://swudb.com/). Der grosse Unterschied
 
 1. Als Spieler möchte ich, dass die Bilder der Karten angezeigt werden.
 2. Als Spieler möchte ich angeben können, welche Karten man wie oft besitzt.
-4. Als Spieler möchte ich nach bestimmten Karten suchen können.
-5. Als Spieler möchte ich die Karten filtern können.
-6. Als Spieler möchte ich zwischen einer Kachel- und Listenansicht wechseln können.
-8. Als Spieler möchte ich eine CSV-Datei hochladen können, um neue Karten zur Sammlung hinzuzufügen.
+3. Als Spieler möchte ich nach bestimmten Karten suchen können.
+4. Als Spieler möchte ich die Karten filtern können.
+5. Als Spieler möchte ich zwischen einer Kachel- und Listenansicht wechseln können.
+6. Als Spieler möchte ich eine CSV-Datei hochladen können, um neue Karten zur Sammlung hinzuzufügen.
 
 **Falls Zeit:**
 
@@ -43,5 +43,11 @@ Dabei orientiere ich mich an [SWUDB](https://swudb.com/). Der grosse Unterschied
 ## 21.11.2025 (Epic-Nr: 2)
 
 *siehe issues*
+
+✍️ Heute habe ich zuerst meine *.tsx* Dateien in*.jsx* konvertiert, weil ich in diesem Projekt nur React und noch kein TypeScript erlernen möchte. Anschliessend habe ich mich um die Buttons gekümmert, mit welchen man angeben kann, wie oft man welche Karte besitzt. Durch die Knöpfe verändert sich auch die Zahl zwischen den beiden Knöpfen. Danach habe ich noch implementiert, dass Karten, welche man besitzt heller erscheinen als Karten, welche man nicht besitzt. Zum Abschluss habe ich noch den Hover-Effekt angepasst, da nicht mehr alle Karten gleich dunkel wurden beim drüber hovern. (90 Wörter)
+
+## 28.11.2025 (Epic-Nr: 2)
+
+siehe issues
 
 ✍️ Heute habe ich...
