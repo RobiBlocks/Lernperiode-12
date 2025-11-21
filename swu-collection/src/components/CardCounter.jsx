@@ -1,7 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-function CardCounter(props) {
-  const [copies, setCopies] = useState(0);
+function CardCounter({ number, value, onChange }) {
+  const [copies, setCopies] = useState(value);
+
+  useEffect(() => {
+    onChange(number, copies);
+  }, [copies]);
 
   const handleIncrease = () => {
     setCopies(copies + 1);
@@ -13,7 +17,7 @@ function CardCounter(props) {
 
   return (
     <div className="cardCounter">
-      <p className="cardNumber">Nr. {props.number}</p>
+      <p className="cardNumber">Nr. {number}</p>
       <div className="buttonRow">
         <button onClick={handleDecrease}>
           <p>-</p>

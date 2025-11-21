@@ -1,4 +1,5 @@
 import useSWR from "swr";
+import { useState } from "react";
 import CardCounter from "./CardCounter";
 
 function SetLoader(props) {
@@ -15,23 +16,35 @@ function SetLoader(props) {
     fetcher
   );
 
-  if (error) {
-    return <div className="failed">failed to load</div>;
-  }
-  if (isLoading) {
-    return <div className="Loading">Loading...</div>;
-  }
+  const [copies, setCopies] = useState({});
+  const updateCopies = (number, value) => {
+    setCopies((prev) => ({ ...prev, [number]: value }));
+  };
+
+  if (error) return <div className="failed">failed to load</div>;
+  if (isLoading) return <div className="Loading">Loading...</div>;
+
   const cards = response?.data || [];
   const sortedCards = cards.sort((a, b) => a.Number - b.Number);
 
   return (
     <div className="setLoader">
-      {sortedCards.map((card, index) => (
-        <div className="cardWrapper">
-          <img key={index} src={card.FrontArt} alt="card" />
-          <CardCounter number={card.Number} />
-        </div>
-      ))}
+      {sortedCards.map((card, index) => {
+        const cardCopies = copies[card.Number] || 0;
+        return (
+          <div
+            className={`cardWrapper ${cardCopies > 0 ? "bright" : ""}`}
+            key={index}
+          >
+            <img key={index} src={card.FrontArt} alt="card"  loading="lazy" />
+            <CardCounter
+              number={card.Number}
+              value={cardCopies}
+              onChange={updateCopies}
+            />
+          </div>
+        );
+      })}
     </div>
   );
 }
