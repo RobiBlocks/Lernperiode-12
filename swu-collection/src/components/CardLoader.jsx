@@ -1,9 +1,4 @@
-
-interface CardLoaderProps {
-  number: number;
-}
-
-function CardLoader(props: CardLoaderProps) {
+function CardLoader(props) {
     return (
         <div className="cardLoader">
             <div className="cardNumber">Card #{props.number}</div>
