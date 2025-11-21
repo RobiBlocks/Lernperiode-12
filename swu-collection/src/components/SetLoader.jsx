@@ -1,4 +1,5 @@
 import useSWR from "swr";
+import CardCounter from "./CardCounter";
 
 function SetLoader(props) {
   const fetcher = (url) => fetch(url).then((res) => res.json());
@@ -8,7 +9,9 @@ function SetLoader(props) {
     error,
     isLoading,
   } = useSWR(
-    `https://corsproxy.io/?${encodeURIComponent(`https://api.swu-db.com/cards/${props.set}`)}`,
+    `https://corsproxy.io/?${encodeURIComponent(
+      `https://api.swu-db.com/cards/${props.set}`
+    )}`,
     fetcher
   );
 
@@ -24,7 +27,10 @@ function SetLoader(props) {
   return (
     <div className="setLoader">
       {sortedCards.map((card, index) => (
-        <img key={index} src={card.FrontArt} alt="card" />
+        <div className="cardWrapper">
+          <img key={index} src={card.FrontArt} alt="card" />
+          <CardCounter number={card.Number} />
+        </div>
       ))}
     </div>
   );
