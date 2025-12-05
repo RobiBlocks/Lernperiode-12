@@ -48,6 +48,12 @@ Dabei orientiere ich mich an [SWUDB](https://swudb.com/). Der grosse Unterschied
 
 ## 28.11.2025 (Epic-Nr: 2)
 
-siehe issues
+*krank*
+
+✍️ Heute war ich krank. (4 Wörter)
+
+## 05.12.2025 (Epic-Nr: 2)
+
+*siehe issues*
 
 ✍️ Heute habe ich...
