@@ -56,4 +56,10 @@ Dabei orientiere ich mich an [SWUDB](https://swudb.com/). Der grosse Unterschied
 
 *siehe issues*
 
+✍️ Heute habe ich mir den MERN Stack angesehen und gelernt wie er funktioniert. Da ich das Frontend schon erstellt habe, musste ich mich heute um das Backend kümmern. Ich habe die Ordner umstrukturiert, die Connection aufgebaut, die Mongo DB erstellt und die Records erstellt. Dazu habe ich mir folgendes Video zur Hilfe genommen: https://www.youtube.com/watch?v=4nKWREmCvsE. (53 Wörter)
+
+## 12.12.2025 (Epic-Nr: 2)
+
+*siehe issues*
+
 ✍️ Heute habe ich...
