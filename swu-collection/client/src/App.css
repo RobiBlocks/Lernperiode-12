@@ -44,7 +44,7 @@ h1 {
   justify-content: center;
 }
 .cardWrapper:hover img {
-  filter: brightness(0.4);
+  filter: brightness(0.7);
 }
 .cardNumber {
   font-weight: bold;

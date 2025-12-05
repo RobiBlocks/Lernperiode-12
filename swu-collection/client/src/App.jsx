@@ -6,7 +6,7 @@ function App() {
   <body>
     <section className="App">
       <h1>SWU Collection</h1>
-      <SetLoader set="SOR" /></section>
+      <SetLoader set="SEC" /></section>
   </body>
   )
 }
