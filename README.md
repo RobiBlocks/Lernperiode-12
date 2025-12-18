@@ -60,6 +60,12 @@ Dabei orientiere ich mich an [SWUDB](https://swudb.com/). Der grosse Unterschied
 
 ## 12.12.2025 (Epic-Nr: 2)
 
+*Teilnahme an der Studie*
+
+✍️ Heute habe ich an einer Studie teilgenommen.
+
+## 19.12.2025 (Epic-Nr: 2)
+
 *siehe issues*
 
 ✍️ Heute habe ich...
