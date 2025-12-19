@@ -10,7 +10,7 @@ Diese Webapplikation ermöglicht das Verwalten meiner privaten SWU-Kartensammlun
 - Das Backend wurde mit Node.js und Express realisiert.
 - Die Datenbank basiert auf MongoDB und läuft auf MongoDB Atlas.
 
-<img src="https://github.com/RobiBlocks/Lern-Periode-11/blob/main/swu-collection.gif" alt="Game Lounge">
+<img src="https://github.com/RobiBlocks/Lern-Periode-11/blob/main/swu-collection-demo.gif" alt="Game Lounge">
 
 ## Technologien
 
