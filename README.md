@@ -2,6 +2,16 @@
 
 07.11.2025 – 19.12.2025
 
+## Fertiges Projekt
+
+Diese Webapplikation ermöglicht das Verwalten meiner privaten SWU-Kartensammlung. Auf der Startseite werden einem alle Karten angezeigt und man kann angeben welche Karte man wie oft besitzt. Karten, die man gar nicht besitzt sind dabei ausgegraut. Aber Karten, die man mindestens einmal besitzt erscheinen hell.
+
+- Das Frontend wurde mit React realisiert und es wurden verschiedene Komponenten implementiert.
+- Das Backend wurde mit Node.js und Express realisiert.
+- Die Datenbank basiert auf MongoDB und läuft auf MongoDB Atlas.
+
+<img src="https://github.com/RobiBlocks/Lern-Periode-11/blob/main/swu-collection.gif" alt="Game Lounge">
+
 ## Technologien
 
 In dieser Lernperiode möchte ich mich mit React beschäftigen.
@@ -68,4 +78,10 @@ Dabei orientiere ich mich an [SWUDB](https://swudb.com/). Der grosse Unterschied
 
 *siehe issues*
 
-✍️ Heute habe ich...
+✍️ Heute habe ich mich auf das Backend konzentriert. Ich habe Schemas für die Karten erstellt und Controller für die einzelnen Routen hinzugefügt. Dabei habe ich gemerkt, dass das Tutorial sehr unbrauchbar ist und habe nun eine ausführliche und verständliche tutorialreihe entdeckt, welche den MERN Stack erklärt. Nun fehlt noch die Verknüpfung zwischen dem Frontend und dem Backend. (57 Wörter)
+
+## Reflexion
+
+In dieser Lernperiode habe ich gelernt, wie ich Git in meinen Lernatelier Workflow einbauen kann. Ausserdem kenne ich einige Grundlagen des MERN (MongoDB, Express, React und Node.js) und kann Teile davon implementieren.
+Das einzige Probleme in dieser Lernperiode war, dass ich erst sehr spät gemerkt habe, dass meine ausgewählten Technologien dem MERN Stack entsprechen und dadurch erst spät geeignete Erklärungen im Internet fand.
+Nächste Lernperiode möchte ich mich im Vorhinein besser über meine Technologien informieren und mein Wissen im MERN Stack weiter vertiefen. (83 Wörter)
