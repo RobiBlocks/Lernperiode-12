@@ -1,16 +1,27 @@
-import express from "express";
 import db from "../db/connection.js";
 import { ObjectId } from "mongodb";
+import { Card } from "../models/CardModel.js";
 
-const router = express.Router();
+const createCard = async (req, res) => {
+  const { number, amount } = req.body;
+  try {
+    const card = await Card.create({ number, amount });
+    const collection = await db.collection("cards");
+    const result = await collection.insertOne(card);
+    res.status(204).send(result);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send({"Error adding card": err.message});
+  }
+}
 
-router.get("/", async (req, res) => {
+const getAllCards = async (req, res) => {
   let collection = await db.collection("cards");
   let results = await collection.find({}).toArray();
   res.send(results).status(200);
-});
+}
 
-router.get("/:id", async (req, res) => {
+const getCardById = async (req, res) => {
   let collection = await db.collection("cards");
   let query = { _id: new ObjectId(req.params.id) };
   let result = await collection.findOne(query);
@@ -20,24 +31,9 @@ router.get("/:id", async (req, res) => {
   } else {
     res.send(result).status(200);
   }
-});
+}
 
-router.post("/", async (req, res) => {
-  try {
-    let newDocument = {
-      number: req.body.number,
-      amount: req.body.amount,
-    };
-    let collection = await db.collection("cards");
-    let result = await collection.insertOne(newDocument);
-    res.send(result).status(204);
-  } catch (err) {
-    console.error(err);
-    res.status(500).send("Error adding record");
-  }
-});
-
-router.patch("/:id", async (req, res) => {
+const updateCardById = async (req, res) => {
   try {
     const query = { _id: new ObjectId(req.params.id) };
     const updates = {
@@ -54,9 +50,9 @@ router.patch("/:id", async (req, res) => {
     console.error(err);
     res.status(500).send("Error updating record");
   }
-});
+}
 
-router.delete("/:id", async (req, res) => {
+const deleteCardById = async (req, res) => {
   try {
     const query = { _id: new ObjectId(req.params.id) };
 
@@ -68,6 +64,12 @@ router.delete("/:id", async (req, res) => {
     console.error(err);
     res.status(500).send("Error deleting record");
   }
-});
+}
 
-export default router;
+module.exports = {
+  createCard,
+  getAllCards,
+  getCardById,
+  updateCardById,
+  deleteCardById
+};
